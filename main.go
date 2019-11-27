@@ -69,7 +69,7 @@ func getPrefix(isLast bool, prefixPre string) (prefix string) {
 	if isLast {
 		prefix = prefixPre + "\t"
 	} else {
-		prefix = prefixPre + "|\t" +
+		prefix = prefixPre + "│\t" +
 			""
 	}
 
