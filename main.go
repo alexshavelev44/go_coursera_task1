@@ -23,8 +23,7 @@ type FolderElement struct {
 }
 
 func dirTree(out io.Writer, path string, printFiles bool) error {
-	err := dirTree2(out, path, printFiles, 0, ""+
-		"")
+	err := dirTree2(out, path, printFiles, 0, "")
 	if err != nil {
 		log.Fatal(err)
 	}
